@@ -1,0 +1,51 @@
+final-node_exporter-1   | ts=2022-07-07T05:39:38.580Z caller=node_exporter.go:182 level=info msg="Starting node_exporter" version="(version=1.3.1, branch=HEAD, revision=a2321e7b940ddcff26873612bccdf7cd4c42b6b6)"
+final-node_exporter-1   | ts=2022-07-07T05:39:38.580Z caller=node_exporter.go:183 level=info msg="Build context" build_context="(go=go1.17.3, user=root@243aafa5525c, date=20211205-11:09:49)"
+final-node_exporter-1   | ts=2022-07-07T05:39:38.580Z caller=filesystem_common.go:111 level=info collector=filesystem msg="Parsed flag --collector.filesystem.mount-points-exclude" flag=^/(sys|proc|dev|run)($|/)
+final-node_exporter-1   | ts=2022-07-07T05:39:38.580Z caller=filesystem_common.go:113 level=info collector=filesystem msg="Parsed flag --collector.filesystem.fs-types-exclude" flag=^(autofs|binfmt_misc|bpf|cgroup2?|configfs|debugfs|devpts|devtmpfs|fusectl|hugetlbfs|iso9660|mqueue|nsfs|overlay|proc|procfs|pstore|rpc_pipefs|securityfs|selinuxfs|squashfs|sysfs|tracefs)$
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:108 level=info msg="Enabled collectors"
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=arp
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=bcache
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=bonding
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=btrfs
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=conntrack
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=cpu
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=cpufreq
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=diskstats
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=dmi
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=edac
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=entropy
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=fibrechannel
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=filefd
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=filesystem
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=hwmon
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=infiniband
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=ipvs
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=loadavg
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=mdadm
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=meminfo
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=netclass
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=netdev
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=netstat
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=nfs
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=nfsd
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=nvme
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=os
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=powersupplyclass
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=pressure
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=rapl
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=schedstat
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=sockstat
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=softnet
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=stat
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=tapestats
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=textfile
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=thermal_zone
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=time
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=timex
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=udp_queues
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=uname
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=vmstat
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=xfs
+final-node_exporter-1   | ts=2022-07-07T05:39:38.585Z caller=node_exporter.go:115 level=info collector=zfs
+final-node_exporter-1   | ts=2022-07-07T05:39:38.586Z caller=node_exporter.go:199 level=info msg="Listening on" address=:9100
+final-node_exporter-1   | ts=2022-07-07T05:39:38.587Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false

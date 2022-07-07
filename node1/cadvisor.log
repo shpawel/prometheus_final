@@ -1,0 +1,1 @@
+W0707 05:23:56.268104       1 manager.go:288] Could not configure a source for OOM detection, disabling OOM events: open /dev/kmsg: no such file or directory
